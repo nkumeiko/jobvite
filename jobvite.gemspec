@@ -4,8 +4,8 @@ require File.expand_path('../lib/jobvite/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Michael Guterl"]
   gem.email         = ["michael@diminishing.org"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Fetch jobs from Jobvite}
+  gem.summary       = %q{Simple ruby wrapper for fetching jobs from Jobvite}
   gem.homepage      = "http://github.com/recruitmilitary/jobvite"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
