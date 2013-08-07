@@ -1,6 +1,6 @@
 module Jobvite
   class Job
-    instance_methods.each { |m| undef_method m unless m =~ /^__/ || m =~ /inspect/ }
+    instance_methods.each { |m| undef_method m unless m =~ /^__/ || m =~ /inspect/ || m =~ /object_id/ }
 
     def initialize(attributes)
       @attributes = attributes

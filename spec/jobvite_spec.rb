@@ -26,7 +26,7 @@ describe Jobvite do
       it { subject.category.should == 'Customer Service' }
       it { subject.job_type.should == 'Full-Time Hourly' }
       it { subject.location.should == 'Sydney, Australia' }
-      it { subject.date.should == Date.new(2012, 4, 8) }
+      it { subject.date.should == Date.new(2012, 8, 4) }
       it { subject.detail_url.should == 'http://hire.jobvite.com/CompanyJobs/Job.aspx?c=qD09Vfwr&j=or1DVfwK' }
       it { subject.apply_url.should == 'http://hire.jobvite.com/CompanyJobs/Apply.aspx?c=qD09Vfwr&j=or1DVfwK' }
       it { subject.description.should == 'is a new and exciting online business that promotes fun things to do' }
