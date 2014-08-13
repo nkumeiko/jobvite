@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Jobvite::VERSION
 
-  gem.add_development_dependency 'rspec'
-  gem.add_dependency 'nokogiri'
+  gem.add_development_dependency 'rspec', '2.10'
+  gem.add_dependency 'nokogiri', '1.4.7'
 end
