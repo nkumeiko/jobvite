@@ -43,7 +43,7 @@ module Jobvite
     end
 
     def extract_date(node, name)
-      Date.parse extract_text(node, name)
+      Date.strptime(extract_text(node, name), "%m/%d/%Y")
     end
   end
 
