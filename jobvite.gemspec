@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Jobvite::VERSION
 
   gem.add_development_dependency 'rspec', '2.10'
-  gem.add_dependency 'nokogiri', '1.4.7'
+  gem.add_dependency 'nokogiri', '>= 1.4.7'
 end
